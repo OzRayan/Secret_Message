@@ -1,0 +1,34 @@
+welcome,main_menu,cipher_menu,keyword_in,action,message,cipher,key,error,encrypted,decrypted,repeat
+"*** Welcome to Secret Message ***
+
+","This cipher encrypt or decrypt only 
+alphabet characters
+
+Encrypt            [E]
+Decrypt            [D]
+---EXIT---
+Quit               [Q]
+
+","This are the ciphers
+
+Affine             [A]
+Atbash             [B]
+Keyword            [K]
+
+","Excellent cipher!
+This cipher requires keyword
+Enter your message
+","Please choose your action 
+by typing the name or the letter 
+>","Great choice!
+Enter your message
+","Please choose your cipher 
+by typing the name or the letter 
+>",Please enter keyword: ,"Invalid input, Please try again!
+","Your encrypted message is:
+
+{}
+","Your decrypted message is:
+
+{}
+",Whould you like to continue? [Y]/[N]

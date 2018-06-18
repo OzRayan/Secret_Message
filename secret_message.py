@@ -1,6 +1,8 @@
 import csv
 import os
 from ciphers import Affine, Atbash, Keyword
+
+
 # Read from a csv file the prompt
 with open('promt.csv', newline='') as csvfile:
     t = csv.DictReader(csvfile, delimiter=',')

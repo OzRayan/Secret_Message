@@ -16,14 +16,14 @@ class Cipher:
 
     def pack(self, a, b):
         """pack protected Method, creates a list of tuples"""
-        lista = []
+        list_ = []
         index = len(self.alphabet)     # Length of the alphabet
         i = 0
         while index:
-            lista.append(a[i] + b[i])
+            list_.append(a[i] + b[i])
             i += 1
             index -= 1      # Making sure that the loop ends
-        return lista
+        return list_
 
     def encrypt_decrypt(self, word, cipher):
         """Encrypting/decrypting method for all the ciphers
